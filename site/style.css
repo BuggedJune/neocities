@@ -161,6 +161,10 @@ h2 a {
 }
 
 .yasu {
+	pointer-events: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
 	position: absolute;
 	width: 360px;
 	right: 20px;
